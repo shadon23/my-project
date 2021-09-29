@@ -1,344 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.72.0">
-    <title>Product example · Bootstrap</title>
-
-    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/product/">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
-
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-
-
-    <!-- Custom styles for this template -->
-    <!-- <link href="product.css" rel="stylesheet"> -->
-    <style>
-        .container {
-            max-width: 960px;
-        }
-        /*
- * Custom translucent site header
- */
-        
-        .site-header {
-            background-color: rgba(0, 0, 0, .85);
-            -webkit-backdrop-filter: saturate(180%) blur(20px);
-            backdrop-filter: saturate(180%) blur(20px);
-        }
-        
-        .site-header a {
-            color: #727272;
-            transition: color .15s ease-in-out;
-        }
-        
-        .site-header a:hover {
-            color: #fff;
-            text-decoration: none;
-        }
-        /*
- * Dummy devices (replace them with your own or something else entirely!)
- */
-        
-        .product-device {
-            position: absolute;
-            right: 10%;
-            bottom: -30%;
-            width: 300px;
-            height: 540px;
-            background-color: #333;
-            border-radius: 21px;
-            transform: rotate(30deg);
-        }
-        
-        .product-device::before {
-            position: absolute;
-            top: 10%;
-            right: 10px;
-            bottom: 10%;
-            left: 10px;
-            content: "";
-            background-color: rgba(255, 255, 255, .1);
-            border-radius: 5px;
-        }
-        
-        .product-device-2 {
-            top: -25%;
-            right: auto;
-            bottom: 0;
-            left: 5%;
-            background-color: #e5e5e5;
-        }
-        /*
- * Extra utilities
- */
-        
-        .flex-equal>* {
-            flex: 1;
-        }
-        
-        @media (min-width: 768px) {
-            .flex-md-equal>* {
-                flex: 1;
-            }
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first website</title>
+    <link rel="stylesheet" href="a_style.css">
 </head>
 
 <body>
-
-    <nav class="site-header sticky-top py-1">
-        <div class="container d-flex flex-column flex-md-row justify-content-between">
-            <a class="py-2" href="#" aria-label="Product">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24">
-                    <title>Product</title>
-                    <circle cx="12" cy="12" r="10" />
-                    <path
-                        d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
-                </svg>
-            </a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+    <div class="box-1">
+        <div class="mini-box-1">
+            <p>Далеко-далеко за словесными, </p>
         </div>
-    </nav>
-
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <div class="col-md-5 p-lg-5 mx-auto my-5">
-            <h1 class="display-4 font-weight-normal">Punny headline</h1>
-            <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-            <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+        <div class="mini-box-2">
+            <p>Взгляд ему встретил свою своих </p>
         </div>
-        <div class="product-device shadow-sm d-none d-md-block"></div>
-        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-            <div class="my-3 py-3">
-                <h2 class="display-5">Another headline</h2>
-                <p class="lead">And an even wittier subheading.</p>
-            </div>
-            <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
+        <div class="mini-box-3">
+            <p>Пустился ты </p>
         </div>
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class="my-3 p-3">
-                <h2 class="display-5">Another headline</h2>
-                <p class="lead">And an even wittier subheading.</p>
-            </div>
-            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
+        <div class="mini-box-4">
+            <p>Щеке, о раз </p>
+        </div>
+        <div class="mini-box-5">
+            <p>Рыбного единственное </p>
+        </div>
+        <div class="mini-box-6">
+            <p>Это агентство инициал его. Возвращайся все меня свой океана живет снова! Lorem сбить пустился буквенных живет путь маленькая осталось там точках коварный прямо строчка пунктуация деревни обеспечивает приставка, агентство его заманивший ручеек
+                до! Вскоре которой назад злых, наш гор родного.</p>
         </div>
     </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class="my-3 p-3">
-                <h2 class="display-5">Another headline</h2>
-                <p class="lead">And an even wittier subheading.</p>
-            </div>
-            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
-        </div>
-        <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-            <div class="my-3 py-3">
-                <h2 class="display-5">Another headline</h2>
-                <p class="lead">And an even wittier subheading.</p>
-            </div>
-            <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
-        </div>
+    <div class="boxh-1">
+        <mini-boxh-1>
+            <p>Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные тексты. Продолжил жаренные, рыбного все точках заголовок большого ему лучше языком образ семь первую за предложения ручеек вершину пояс он рот, дороге языкового
+                рыбными предупреждал всеми прямо запятых. Если, великий обеспечивает!</p>
+        </mini-boxh-1>
+        <mini-boxh-2>
+            <p>Образ по всей подпоясал продолжил грустный, коварный точках толку города пустился, ведущими, напоивший лучше текстами! Пустился безопасную свою послушавшись себя обеспечивает ручеек раз рукопись взобравшись заглавных. Алфавит домах свою, ее
+                своих вопроса скатился строчка сих взгляд ручеек, маленький, своего вскоре знаках!</p>
+        </mini-boxh-2>
+        <mini-boxh-3>
+            <p>Переписали своего ее прямо большого коварный, языком жаренные все великий имеет речью. Напоивший речью океана повстречался безорфографичный однажды большой силуэт ему алфавит строчка, своих инициал назад выйти переписывается знаках образ языкового
+                предупреждал обеспечивает не до первую, по всей путь букв маленький?</p>
+        </mini-boxh-3>
+        <mini-boxh-4>
+            <p>Но образ запятых заголовок взгляд себя города если толку снова они рот. Назад образ заглавных буквенных курсивных маленький! Однажды толку рукопись назад языком реторический запятых которое бросил знаках, языкового его сбить заглавных это
+                текст пор жаренные продолжил злых наш то?</p>
+        </mini-boxh-4>
     </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class="my-3 p-3">
-                <h2 class="display-5">Another headline</h2>
-                <p class="lead">And an even wittier subheading.</p>
-            </div>
-            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
-        </div>
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class="my-3 py-3">
-                <h2 class="display-5">Another headline</h2>
-                <p class="lead">And an even wittier subheading.</p>
-            </div>
-            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
-        </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class="my-3 p-3">
-                <h2 class="display-5">Another headline</h2>
-                <p class="lead">And an even wittier subheading.</p>
-            </div>
-            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
-        </div>
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class="my-3 py-3">
-                <h2 class="display-5">Another headline</h2>
-                <p class="lead">And an even wittier subheading.</p>
-            </div>
-            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
-        </div>
-    </div>
-
-    <footer class="container py-5">
-        <div class="row">
-            <div class="col-12 col-md">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24">
-                    <title>Product</title>
-                    <circle cx="12" cy="12" r="10" />
-                    <path
-                        d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
-                </svg>
-                <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Features</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="link-secondary" href="#">Cool stuff</a></li>
-                    <li><a class="link-secondary" href="#">Random feature</a></li>
-                    <li><a class="link-secondary" href="#">Team feature</a></li>
-                    <li><a class="link-secondary" href="#">Stuff for developers</a></li>
-                    <li><a class="link-secondary" href="#">Another one</a></li>
-                    <li><a class="link-secondary" href="#">Last time</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="link-secondary" href="#">Resource name</a></li>
-                    <li><a class="link-secondary" href="#">Resource</a></li>
-                    <li><a class="link-secondary" href="#">Another resource</a></li>
-                    <li><a class="link-secondary" href="#">Final resource</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="link-secondary" href="#">Business</a></li>
-                    <li><a class="link-secondary" href="#">Education</a></li>
-                    <li><a class="link-secondary" href="#">Government</a></li>
-                    <li><a class="link-secondary" href="#">Gaming</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="link-secondary" href="#">Team</a></li>
-                    <li><a class="link-secondary" href="#">Locations</a></li>
-                    <li><a class="link-secondary" href="#">Privacy</a></li>
-                    <li><a class="link-secondary" href="#">Terms</a></li>
-
-
-
-                </ul>
-            </div>
-        </div>
-    </footer>
-
-    <p>Практика</p>
-
-
-    <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Составитель своих ему, даль мир силуэт, речью агентство живет языкового они пунктуация lorem безорфографичный предупредила путь правилами ведущими обеспечивает! Прямо
-        строчка, страна заголовок языком коварных вдали родного подпоясал! Свой прямо страну первую выйти текстами свою по всей дал большого напоивший которое.
-    </p>
-    <ul>
-        <li>пункт 1</li>
-        <li>пункт 2</li>
-        <li>пункт 3</li>
-        <li>пункт 4</li>
-        <li>пункт 5</li>
-        <li>пункт 6</li>
-        <li>пункт 7</li>
-    </ul>
-    <h1>zagalovok 1urovnj</h1>
-    <h2>zagalovok 2urovnj</h2>
-    <h3>zagalovok 3urovnj</h3>
-    <h4>zagalovok 4urovnj</h4>
-    <h5>zagalovok 5urovnj</h5>
-    <h6>zagalovok 6urovnj</h6>
-
-    <div id="blok-1">
-        <h2>text1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sunt voluptatum quis, dignissimos officiis recusandae inventore commodi, tempore odio sint voluptatibus veritatis? Voluptates ipsam dicta recusandae tempora expedita nulla architecto
-            magni quam veniam sequi rerum possimus amet, blanditiis, ab laborum fuga explicabo provident enim reiciendis! Eligendi consectetur id distinctio neque laudantium ad nostrum, nam dolorum sint culpa recusandae quam quos eius quis amet mollitia
-            suscipit modi quod voluptatum aspernatur obcaecati. Vero molestias, nobis magni accusantium odio quis reiciendis dolores est id culpa veniam inventore exercitationem porro quaerat facilis rerum consequuntur nihil magnam, provident eos atque
-            velit. Recusandae itaque fugiat error.</p>
-    </div>
-    <div id="blok-2">
-        <h2>text2</h2>
-        <p>Temporibus commodi numquam quisquam eius? Dolores aliquid quod pariatur vero facere in corrupti numquam eligendi modi quia amet illo distinctio quidem sapiente nisi quam delectus esse libero consequatur nihil, tempore veniam officiis ipsam omnis!
-            Laboriosam minus unde, officia dolore magnam ratione voluptatum facere. Necessitatibus nobis modi minima possimus, perferendis laborum. Accusamus quasi cum vel commodi laborum unde quia voluptatum consequuntur similique magni, porro quas dolor
-            temporibus distinctio, tempore voluptate eveniet, repudiandae quibusdam eos provident. Dignissimos nemo ipsa unde ex, sit maxime aliquid ducimus odit doloribus magni, tempore quis maiores nostrum iste quidem architecto. Perferendis aspernatur
-            illum corrupti quas. Alias, odit!</p>
-    </div>
-    <div id="blok-3">
-        <h2>text3</h2>
-        <p>Voluptatum excepturi provident reiciendis maiores. Facere reprehenderit itaque excepturi odio eos laboriosam ipsam, quod rerum, temporibus, voluptatibus perspiciatis impedit eum? Omnis delectus doloribus cum quis, accusantium impedit doloremque
-            fuga fugit officia obcaecati, totam itaque quisquam odio inventore sit sequi laboriosam commodi saepe explicabo nemo, accusamus amet non optio fugiat! Doloribus soluta ducimus commodi iusto voluptate perferendis natus repellat ab odio. Recusandae
-            inventore illum quia! Quaerat recusandae error, natus hic dolor minus debitis excepturi quasi deserunt placeat! Libero cum accusamus, incidunt nisi asperiores ex. Nisi quia quae aut omnis ducimus, quidem minus molestiae ipsam aperiam? Deleniti
-            porro voluptatem veniam fugiat commodi.</p>
-    </div>
-    <div id="blok-4">
-        <h2>text4</h2>
-        <p>Dolore, quas expedita enim est reiciendis doloremque maxime, quam perspiciatis aliquam autem dolorum repellat mollitia explicabo! Culpa voluptatem dolore sint deleniti explicabo facere sequi ipsam, debitis molestiae ducimus amet quos natus fuga
-            cum repellendus a, aliquid eveniet optio. Deserunt provident molestiae maxime natus, expedita sequi incidunt repellat sit ad dolorem optio eveniet, similique voluptates. Quo nesciunt accusamus porro accusantium quaerat. Sequi debitis quia
-            aut iusto esse, earum vitae sunt ut. Iure corporis pariatur repudiandae voluptatibus sed nisi. Veniam assumenda vitae nam nisi beatae eius earum praesentium facilis doloribus deleniti amet, repudiandae iste quaerat impedit provident quae atque
-            eos, unde vel.</p>
-    </div>
-    <img src="" alt="">
-    <div class="blok">
-        <div class="blok"></div>
-        <div class="blok"></div>
-        <div class="blok"></div>
-        <div class="blok"></div>
-        <div class="blok"></div>
-    </div>
-    <div class="blok">
-        <div class="blok"></div>
-        <div class="blok"></div>
-        <div class="blok"></div>
-        <div class="blok"></div>
-        <div class="blok"></div>
-    </div>
-
-
 </body>
 
 </html>
