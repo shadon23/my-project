@@ -6,11 +6,13 @@
     width: 100%;
     opacity: 0.8;
     background-color: #90c9d3;
-    height: 50px;
+    height: 60px;
     position: fixed;
     top: 0;
     left: 0;
     margin-right: -50%;
+    display: block;
+    text-align: center;
     /** padding: 10px;
     border: 5px solid black;
     display: inline-block;
@@ -35,4 +37,24 @@
     width: 250px;
     border: 10 solid blue;
     margin-left: 10px;
+} **/
+
+.contry {
+    color: red;
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+    margin: 20px;
+    margin-top: 20px;
+    vertical-align: center;
+    text-align: center;
+}
+
+.contry {}
+
+a {
+    box-lines: none;
+    line-clamp: none;
 }
