@@ -2,6 +2,23 @@
     box-sizing: border-box;
 }
 
-.box {
-    display: inline-block;
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    line-height: 1.2;
+    color: #333333
+}
+
+.header {
+    font-size: 24px;
+    text-align: center;
+}
+
+.header span {
+    font-weight: 300;
+    display: block;
+}
+
+.header strong {
+    font-weight: 900;
+    text-transform: uppercase;
 }
