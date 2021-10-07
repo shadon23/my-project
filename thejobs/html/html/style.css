@@ -8,7 +8,12 @@ body {
     color: #333333
 }
 
+.section {
+    padding: 40px 10%;
+}
+
 .header {
+    margin-top: 30px;
     font-size: 24px;
     text-align: center;
 }
@@ -21,4 +26,42 @@ body {
 .header strong {
     font-weight: 900;
     text-transform: uppercase;
+}
+
+.main {
+    margin-top: 80px;
+}
+
+.video,
+.form {
+    display: inline-block;
+    vertical-align: top;
+    border: 5px solid blue;
+}
+
+.form {
+    border: 5px solid blue;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.form-header {
+    font-size: 20px;
+    text-align: center;
+}
+
+.form input {
+    width: 300px;
+    padding: 17px;
+    font-size: 18px;
+    border: 1px solid #333333;
+}
+
+.form-control-name {
+    margin: 20px;
+}
+
+.form-control-call {
+    margin-left: 20px;
+    margin: bottom 20px;
 }
