@@ -16,7 +16,11 @@
         <h1 class="header"> <span> Получите видео-инструкцию</span> <br> <strong>Как заработать свой первый миллион</strong> </h1>
         <div class="main">
             <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8KIh_eyy2Lo?start=915" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!--<iframe width="560" height="315" src="video/1.mp4" aria-controls="controls" poster="img/1.png" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <video controls width="560" height="315" poster="img/4.png" preload="none">
+                    <source src="video/1.mp4" type="video/mp4">
+                </video>
+
             </div>
             <div class="form">
                 <p class="form-header">Введите свой Email</p>
@@ -29,25 +33,26 @@
 
         </div>
     </div>
-    <div class="block">
-        <h1 class="header"> <strong>Почему нужно это делать сейчас?</strong> </h1>
-        <div class="menu-1">
-            <img src="" alt="">
+    <div class="menu">
+        <h2 class="menu-header"> Почему нужно это делать сейчас? </h2>
+        <div class="col">
+            <img src="img/1.png" alt="Первое примущество">
             <p class="form-menu">Первое примущество</p>
         </div>
-        <div class="menu-2">
-            <img src="" alt="">
+        <div class="col">
+            <img src="img/2.png" alt="Второе примущество">
             <p class="form-menu">Второе примущество</p>
         </div>
-        <div class="menu-3">
-            <img src="" alt="">
-            <p class="form-menu">Третье примущество/p>
+        <div class="col">
+            <img src="img/3.png" alt="Третье примущество">
+            <p class="form-menu">Третье примущество</p>
         </div>
-        <div class="menu-4">
-            <img src="" alt="">
+        <div class="col">
+            <img src="img/4.png" alt="Четьвертое примущество">
             <p class="form-menu">Четьвертое примущество</p>
         </div>
     </div>
+    <button class="btn">Получить инструкцию</button>
 
 </body>
 
